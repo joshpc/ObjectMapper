@@ -309,7 +309,7 @@ class BasicTypesTestsFromJSON: XCTestCase {
 		let mappedObject = mapper.map(JSONString)
 		
 		XCTAssertNotNil(mappedObject)
-		XCTAssertEqual(mappedObject?.enumInt, BasicTypes.EnumInt.`default`)
+		XCTAssertEqual(mappedObject?.enumInt, BasicTypes.EnumInt.Default)
 		XCTAssertNil(mappedObject?.enumIntOptional)
 		XCTAssertNil(mappedObject?.enumIntImplicitlyUnwrapped)
 	}

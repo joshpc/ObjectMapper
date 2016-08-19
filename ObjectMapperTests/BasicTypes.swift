@@ -88,10 +88,10 @@ class BasicTypes: Mappable {
 	var dictAnyObjectImplicitlyUnwrapped: Dictionary<String, AnyObject>!
 
 	enum EnumInt: Int {
-		case `default`
-		case another
+		case Default
+		case Another
 	}
-	var enumInt: EnumInt = .default
+	var enumInt: EnumInt = .Default
 	var enumIntOptional: EnumInt?
 	var enumIntImplicitlyUnwrapped: EnumInt!
 
@@ -104,10 +104,10 @@ class BasicTypes: Mappable {
 	var enumDoubleImplicitlyUnwrapped: EnumDouble!
 
 	enum EnumFloat: Float {
-		case `default`
-		case another
+		case Default
+		case Another
 	}
-	var enumFloat: EnumFloat = .default
+	var enumFloat: EnumFloat = .Default
 	var enumFloatOptional: EnumFloat?
 	var enumFloatImplicitlyUnwrapped: EnumFloat!
 
