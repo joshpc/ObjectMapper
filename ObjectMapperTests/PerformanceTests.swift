@@ -64,10 +64,10 @@ class Person: Mappable {
 	var float: Float?
 	var drinker: Bool = false
 	var smoker: Bool?
-	var arr: [AnyObject] = []
-	var arrOptional: [AnyObject]?
-	var dict: [String : AnyObject] = [:]
-	var dictOptional: [String : AnyObject]?
+	var arr: [Any] = []
+	var arrOptional: [Any]?
+	var dict: [String : Any] = [:]
+	var dictOptional: [String : Any]?
 	var dictString: [String : String]?
 	var friendDictionary: [String : Person]?
 	var friend: Person?
@@ -111,10 +111,10 @@ class PersonCluster: StaticMappable {
 	var float: Float?
 	var drinker: Bool = false
 	var smoker: Bool?
-	var arr: [AnyObject] = []
-	var arrOptional: [AnyObject]?
-	var dict: [String : AnyObject] = [:]
-	var dictOptional: [String : AnyObject]?
+	var arr: [Any] = []
+	var arrOptional: [Any]?
+	var dict: [String : Any] = [:]
+	var dictOptional: [String : Any]?
 	var dictString: [String : String]?
 	var friendDictionary: [String : Person]?
 	var friend: Person?
